@@ -116,7 +116,7 @@ Załadowanie skryptu zawierającego kod wykonywalny i ABI kontraktu
 
 Zlecenie transakcji utworzenia kontraktu ze zwiększonym limitem paliwa
 
-    > greeter = Greeter.new("Serwus!",{from: eth.coinbase, data: _dataGreeter, gas:250000})
+    > greeter = Greeter.new("Hej!",{from: eth.coinbase, data: _dataGreeter, gas:250000})
 
 Pobranie adresu kontraktu
 
@@ -140,8 +140,6 @@ podstawie jego adresu
 Przykłady znajdują się w katalogu `web3j`. Można je zaimportować do ulubionego
 IDE. Wykorzystywane są biblioteki zainstalowane wraz z pakietem `web3j`. Trzeba
 dołączyć je do projektu.
-
-
 
 ### Praca z blockchain
 
