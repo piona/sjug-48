@@ -7,7 +7,8 @@ contract Token {
 	balanceOf[msg.sender] = initialSupply;
     }
 
-   function transfer(address _to, uint256 _value) public {
+    function transfer(address _to, uint256 _value) public {
+	require(balanceOf[msg.sender] >= _value, "Insufficient funds!");
         balanceOf[msg.sender] -= _value;
         balanceOf[_to] += _value;
     }
