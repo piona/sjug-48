@@ -1,5 +1,8 @@
 # Web3j, czyli jak połączyć Java z blockchain
 
+Repozytorium zawiera materiały ze spotkania [SJUG #48](https://www.meetup.com/pl-PL/Silesia-JUG/events/267721430/).
+Nagranie znajduje się [w tym miejscu](https://www.dropbox.com/s/agnxte5pvcsz0l6/SJUG%20%2031.01.2020-20200131%201630-1.mp4?dl=0).
+
 Niezbędne narzędzia:
 
 - klient `geth`: <https://geth.ethereum.org/downloads/>
